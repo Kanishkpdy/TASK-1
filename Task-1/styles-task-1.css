@@ -1,0 +1,139 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+}
+.navbar{
+    height:50px;
+    display: flex;
+    justify-content:space-between;
+}
+.hd1{
+    margin-left:1%;
+    height:100%;
+    padding:7px;
+}
+.km{
+    width:100px;
+}
+.btkm{
+    font-weight: bold;
+    border:0;
+    height: 40px;
+    width:90px;
+    margin-top:7px;
+    background-color: rgb(240, 9, 9);
+    border-radius: 20px;
+}
+.hd2{
+    padding:7px;
+    margin-left:35px;
+}
+.lnkbt{
+    text-decoration: none;
+    color:white;
+}
+.header1{
+    width:100%;
+    height: 76vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('tajm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+.txthd{
+    position: relative;
+    top: 18%;
+    font-weight: bolder;
+    font-size: 3cm;
+    color: white;
+}
+.bar1{
+    margin-top:30px;
+    border:1px solid rgb(118, 118, 247);
+    width: 50%;
+    margin-bottom:70px;
+}
+.bar2{
+    width:90%;
+}
+.main{
+    height: 220px;
+    margin-top:40px;
+    display: flex;
+    justify-content: space-around;
+}
+.m1{
+    display:flex;
+}
+.hwimg{
+    width:300px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.6);
+}
+.texthw{
+    width:300px;
+    height:100px;
+}
+.tt1{
+    margin-top:-25px;
+    font-size: 3.2ch;
+}
+.tt2{
+    color:grey;
+    font-weight: 600;
+    font-size: 15px;
+}
+.tt3{
+    margin-top: 24px;
+    font-size: 15px;
+}
+.tt4{
+    margin-top: 16%;
+    font-size:23px;
+    color: orangered;
+}
+.tt5{
+    margin-top: 14%;
+    font-size:19px;
+}
+.butn{
+    margin-top:5%;
+    height: 40px;
+    width:120px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    border-radius:8px ;
+    border: 0;
+}
+.butnt{
+    text-decoration: none; 
+    color: white;
+}
+.butn:hover{
+    background-color: rgb(236, 16, 16);
+    transform: scale(1.03);
+}
+.main:hover{
+    transform: scale(1.006);
+}
+.footer{
+    height: 220px;
+    background-color: rgba(61, 60, 60);
+    color: white;
+}
+.ft1{
+    padding:30px;
+    display:flex;
+    justify-content: space-around;
+}
+.ft2{
+    padding:10px;
+    display:flex;
+    justify-content: space-around;
+}
