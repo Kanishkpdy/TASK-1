@@ -11,16 +11,13 @@ function addit(){
         y.innerHTML=`&#10006`;
         x.appendChild(y);
         input.value="";
-        saveData();
+        localStorage.setItem("data",tt.innerHTML);
     }
 }
 tt.addEventListener("click",function(e){
 if(e.target.tagName=="Y"){
     e.target.parentElement.remove();
-    saveData();
-}
-},false);
-function saveData(){
     localStorage.setItem("data",tt.innerHTML);
 }
+},false);
 tt.innerHTML=localStorage.getItem("data");
